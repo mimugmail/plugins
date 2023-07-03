@@ -6,6 +6,12 @@
         <help>This will enable or disable this zone.</help>
     </field>
     <field>
+        <id>domain.signzone</id>
+        <label>Inline Zone Signing</label>
+        <type>checkbox</type>
+        <help>This will enable or disable signing the zone inline for DNSSEC.</help>
+    </field>
+    <field>
         <id>domain.domainname</id>
         <label>Zone Name</label>
         <type>text</type>
